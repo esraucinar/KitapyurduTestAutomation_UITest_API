@@ -1,5 +1,3 @@
-
-
 ## Kitapyurdu UI Testi - API Testi  
 **Kullanılan Teknolojiler:**  
 - **Programlama Dili:** Java  
@@ -43,31 +41,38 @@
    - **Test Senaryosu 1:** Geçerli Arama Terimi
    - **Test Senaryosu 2:** Sonuç Vermeyen Arama
    - **Test Senaryosu 3:** Geçersiz Arama Girdisi
-   - **Geliştirmeler:**
-     - Özel karakterler ve SQL enjeksiyonu denemeleriyle güvenlik testleri yapmayı planlıyorum.
-
+   
 3. **Alışveriş Sepeti İşlemleri**
    - **Test Senaryosu 1:** Başarılı Ürün Ekleme
    - **Test Senaryosu 2:** Ürün Çıkarma
    - **Test Senaryosu 3:** Ödeme İçin Limit Uyarısı
-   - **Geliştirmeler:**
-     - Ürün eklenip çıkarıldığında sepetin toplam fiyatının doğru bir şekilde güncellenip güncellenmediğini kontrol edeceğim.
-
+   
 4. **Kullanıcı Girişi**
    - **Test Senaryosu 1:** Başarılı Giriş
    - **Test Senaryosu 2:** Hatalı Kimlik Bilgileri ile Başarısız Giriş
-   - **Geliştirmeler:**
-     - Kilitlenmiş veya pasif hesaplarla giriş denemelerini de test etmeyi düşünüyorum.
 
 5. **Şifre Yenileme**
    - Şifre yenileme sürecini test etmek için:
      - Kayıtlı olmayan bir e-posta girişi ile başlamak.
      - Yenileme bağlantısını takip ederek şifre güçlendirme kriterlerini sağlamaya çalışmak.
 
-### Genel Öneriler
-- **Dokümantasyon:** Tüm adımları, beklenen sonuçları ve gerçek sonuçları belgelendirmeye özen göstereceğim. Bu, hata örüntülerini belirlememi kolaylaştıracak.
-- **Test Kapsamı:** Tüm kritik yolların kapsandığını takip etmeyi ihmal etmeyeceğim.
-- **Otomasyon Stratejisi:** Eğer henüz yapmadıysam, otomatik testler için bir CI/CD pipeline’ı uygulamayı düşüneceğim.
+### Test Sonuçları
+![Ekran Resmi 2024-10-10 23 59 37](https://github.com/user-attachments/assets/c870533b-f73d-4afb-a3ef-b1578f68c3d2)
+
+
+
+Test sonuçlarım şu şekildedir:
+- **Toplam Test Senaryosu:** 13
+- **Başarılı Test:** 10
+- **Başarısız Test:** 1 (Test Senaryosu 2: Sonuç Vermeyen Arama)
+- **Kırık Test:** 1 (OpenBrowser ile ilgili bir sorun)
+- **Başarı Oranı:** %84.61
+
+**Başarısız Test Açıklaması:**
+- **Test Senaryosu 2:** Sonuç vermeyen arama senaryosunda, arama kısmına yazılan ifadenin arama sonucunda beklenenden tamamen farklı sonuçlar döndürdüğü görüldü.
+
+**Kırık Test Açıklaması:**
+- **Kırık Test:** OpenBrowser ile ilgili sorun, tarayıcının açılmaması veya istenen sayfaya erişim sağlanamaması gibi bir durumu ifade eder. Bu durum, testlerin düzgün bir şekilde çalışmasını engelledi.
 
 ### Sonuç
-Proje planım, Kitapyurdu platformunun kapsamlı testleri için sağlam bir temel oluşturuyor. Test senaryolarımı geliştirerek ve ek senaryolar keşfederek, test stratejimin sağlamlığını artırmayı hedefliyorum. Bu süreçte yardım veya geri bildirim almak istediğim belirli alanlar varsa, paylaşmaktan çekinmeyeceğim!
+Proje planım, Kitapyurdu platformunun kapsamlı testleri için sağlam bir temel oluşturuyor. Raporlama araçlarını kullanarak test sonuçlarımı görselleştirdim ve bu sayede süreç boyunca elde ettiğim bulguları daha iyi analiz edebildim. Test senaryolarımı daha da geliştirerek uygulamanın kalitesini artırmayı hedefliyorum.
