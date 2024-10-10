@@ -58,7 +58,9 @@
 
 ### Test Sonuçları
 ![Ekran Resmi 2024-10-10 23 59 37](https://github.com/user-attachments/assets/c870533b-f73d-4afb-a3ef-b1578f68c3d2)
-
+![Ekran Resmi 2024-10-11 00 04 47](https://github.com/user-attachments/assets/7c71a680-b911-4aa0-a631-f3b0ed804d01)
+![Ekran Resmi 2024-10-11 00 06 07](https://github.com/user-attachments/assets/a9937bf4-8169-4db7-b12f-57f552eca208)
+![Ekran Resmi 2024-10-11 00 07 25](https://github.com/user-attachments/assets/7532ea41-c958-49d9-a2ca-8c44b4595686)
 
 
 Test sonuçlarım şu şekildedir:
