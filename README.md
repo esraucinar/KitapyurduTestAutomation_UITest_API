@@ -1,4 +1,4 @@
-## Kitapyurdu UI Testi - API Testi  
+## Kitapyurdu UI Testi  
 **Kullanılan Teknolojiler:**  
 - **Programlama Dili:** Java  
 - **Otomasyon Aracı:** Selenium  
