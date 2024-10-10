@@ -6,7 +6,9 @@
 - **Raporlama Aracı:** Allure Report  
 - **Tasarım Deseni:** Page Object Model (POM) ve Page Factory  
 
-### Kapsanan Ana Alanlar
+### Test Senaryoları
+
+[kitapyurdu test scenario.xlsx](https://github.com/user-attachments/files/17335174/kitapyurdu.test.scenario.xlsx)
 
 **Kullanıcı Kaydı**
 - Geçerli ve geçersiz kayıt senaryoları oluşturdum.
@@ -63,6 +65,7 @@
 ![Ekran Resmi 2024-10-11 00 07 25](https://github.com/user-attachments/assets/7532ea41-c958-49d9-a2ca-8c44b4595686)
 
 
+
 Test sonuçlarım şu şekildedir:
 - **Toplam Test Senaryosu:** 13
 - **Başarılı Test:** 10
@@ -75,6 +78,10 @@ Test sonuçlarım şu şekildedir:
 
 **Kırık Test Açıklaması:**
 - **Kırık Test:** OpenBrowser ile ilgili sorun, tarayıcının açılmaması veya istenen sayfaya erişim sağlanamaması gibi bir durumu ifade eder. Bu durum, testlerin düzgün bir şekilde çalışmasını engelledi.
+
+**Bug Raporu**
+![Ekran Resmi bug-10-11 01 53 19](https://github.com/user-attachments/assets/74b7e2d3-0ff4-40cd-85dc-baa497f56077)
+
 
 ### Sonuç
 Proje planım, Kitapyurdu platformunun kapsamlı testleri için sağlam bir temel oluşturuyor. Raporlama araçlarını kullanarak test sonuçlarımı görselleştirdim ve bu sayede süreç boyunca elde ettiğim bulguları daha iyi analiz edebildim. Test senaryolarımı daha da geliştirerek uygulamanın kalitesini artırmayı hedefliyorum.
