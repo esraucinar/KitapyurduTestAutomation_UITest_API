@@ -84,4 +84,4 @@ Test sonuçlarım şu şekildedir:
 
 
 ### Sonuç
-Proje planım, Kitapyurdu platformunun kapsamlı testleri için sağlam bir temel oluşturuyor. Raporlama araçlarını kullanarak test sonuçlarımı görselleştirdim ve bu sayede süreç boyunca elde ettiğim bulguları daha iyi analiz edebildim. Test senaryolarımı daha da geliştirerek uygulamanın kalitesini artırmayı hedefliyorum.
+Proje planım, Kitapyurdu platformunun kapsamlı testleri için sağlam bir temel oluşturuyor. Raporlama araçlarını kullanarak test sonuçlarımı görselleştirdim ve bu sayede süreç boyunca elde ettiğim bulguları daha iyi analiz edebildim. 
